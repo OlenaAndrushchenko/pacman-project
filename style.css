@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pci {
+    max-width: 100px;
+    max-height: 100px;
+}
