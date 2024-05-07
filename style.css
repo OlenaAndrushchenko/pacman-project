@@ -5,7 +5,9 @@ html {
 body {
     display: flex;
     height: 100%;
-    background-color: cadetblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(fondo-pacman.jpg);
     justify-content: center;
     align-items: center;
 }
