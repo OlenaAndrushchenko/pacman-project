@@ -1,3 +1,9 @@
+@import './reset.css';
+
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
 }
@@ -7,7 +13,7 @@ body {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(fondo-pacman.jpg);
+    background-image: url(../assets/images/fondo-pacman.jpg);
     justify-content: center;
     align-items: center;
 }
