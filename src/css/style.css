@@ -4,25 +4,41 @@
     box-sizing: border-box;
 }
 
-html {
+html, body {
     height: 100%;
 }
 
-body {
-    display: flex;
-    height: 100%;
+main {
+    height: calc(100vh - 100px);
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../assets/images/fondo-pacman.jpg);
-    justify-content: center;
-    align-items: center;
+    background-position: center;
+}
+
+header {
+    height: 100px;
+    padding-inline: 50px;
+    background-color: #020000;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
-.pci {
+.img100x100 {
     max-width: 100px;
     max-height: 100px;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
 }
